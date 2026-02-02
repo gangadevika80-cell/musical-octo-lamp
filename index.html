@@ -2,7 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=desktop-width,initial-scale=1.0">
+    <meta name="viewport">
+    <style>
+  /* Default fixes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  /* MOBILE VIEW FIX */
+  @media (max-width: 600px) {
+
+    h1 {
+      font-size: 26px !important;
+    }
+
+    h2 {
+      font-size: 20px !important;
+    }
+
+    p {
+      font-size: 16px !important;
+    }
+
+    li {
+      font-size: 16px !important;
+    }
+
+    table th, table td {
+      font-size: 13px !important;
+      padding: 6px !important;
+    }
+
+    /* Profile image */
+    img[alt="profile picture"] {
+      height: 180px !important;
+    }
+
+    /* Contact section icons */
+    img[alt="phone"],
+    img[alt="address"] {
+      height: 40px !important;
+    }
+  }
+</style>
     <title>PROFILE</title>
 </head>
 <body>
